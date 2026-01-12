@@ -100,7 +100,22 @@ The projects demonstrate problem-solving, clean coding practices, file handling,
 ## Project Structure
 
 ```
-📁 Project Structure  ├── Level_1_Basic/  │   ├── calculator.py  │   ├── number_guessing_game.py  │   └── word_counter.py  ├── Level_2_Intermediate/  │   ├── todo_list_app.py  │   ├── data_scraper.py  │   └── api_integration.py  ├── Level_3_Advanced/  │   ├── django_auth_app/  │   ├── file_encryption.py  │   └── n_queens.py  └── README.md
+Level_1_Basic/
+├── calculator.py
+├── number_guessing_game.py
+└── word_counter.py
+
+Level_2_Intermediate/
+├── todo_list_app.py
+├── data_scraper.py
+└── api_integration.py
+
+Level_3_Advanced/
+├── django_auth_app/
+├── file_encryption.py
+└── n_queens.py
+
+README.md
 ```
 
 ---
