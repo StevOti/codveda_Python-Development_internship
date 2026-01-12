@@ -87,94 +87,91 @@ Handles file-not-found exceptions
 Add, delete, view, and mark tasks as completed
 
 Stores tasks in JSON/CSV
+# Codveda Technology – Python Development Internship Projects
 
-Includes basic error handling
+## Overview
 
-2. Data Scraper
+This repository contains the projects completed during my Python Development Internship at Codveda Technology. The internship focused on strengthening core Python programming skills through hands-on tasks ranging from basic scripting to intermediate and advanced applications.
 
-Fetches web content using requests
+The projects demonstrate problem-solving, clean coding practices, file handling, API usage, and real-world application development using Python.
 
-Parses HTML with BeautifulSoup
+---
 
-Saves extracted data to CSV
+## Project Structure
 
-3. API Integration
+```
+Level_1_Basic/
+├── calculator.py
+├── number_guessing_game.py
+└── word_counter.py
 
-Fetches data from external APIs
+Level_2_Intermediate/
+├── todo_list_app.py
+├── data_scraper.py
+└── api_integration.py
 
-Displays formatted output
+Level_3_Advanced/
+├── django_auth_app/
+├── file_encryption.py
+└── n_queens.py
 
-Handles failed requests and invalid responses
+README.md
+```
 
-🔹 Level 3 – Advanced
+---
 
-1. Django Web Application with Authentication
+## Technologies Used
 
-User registration and login
+- Python 3
+- Standard Python Libraries
+- requests
+- BeautifulSoup
+- JSON / CSV file handling
+- Django (for advanced tasks)
+- Git & GitHub
 
-Role-based access control
+---
 
-Secure password handling
+## Highlights
 
-Password reset via email
+- Level 1 (Basic): simple scripts like calculator, number guessing game, and word counter.
+- Level 2 (Intermediate): small applications including a to-do list app, a data scraper, and API integrations.
+- Level 3 (Advanced): Django auth app, file encryption utilities, and algorithmic problems like N-Queens.
 
-2. File Encryption & Decryption
+---
 
-Encrypts and decrypts text files
+## How to Run
 
-Uses secure encryption algorithms
+1. Clone the repository:
 
-Saves encrypted and decrypted versions
-
-3. N-Queens Problem
-
-Backtracking algorithm implementation
-
-Constraint handling for rows, columns, and diagonals
-
-Efficient solution for N x N chessboard
-
-🚀 How to Run the Projects
-
-Clone the repository:
-
+```bash
 git clone https://github.com/your-username/your-repo-name.git
+```
 
+2. Navigate to a project folder:
 
-Navigate to a project folder:
-
+```bash
 cd Level_1_Basic
+```
 
+3. Run a script:
 
-Run the Python file:
-
+```bash
 python filename.py
+```
 
+For Django projects, install dependencies and run the development server:
 
-For Django projects, ensure dependencies are installed and run:
-
+```bash
 python manage.py runserver
+```
 
-🎯 Learning Outcomes
+---
 
-Improved Python programming proficiency
+## Contact
 
-Practical experience with real-world problems
-
-Better understanding of APIs, file handling, and web scraping
-
-Exposure to Django authentication and security concepts
-
-Strengthened debugging and error-handling skills
-
-📬 Contact & Acknowledgment
-
-Organization: Codveda Technology
-
-Website: www.codveda.com
-
-LinkedIn: @Codveda Technologies
-
-Email: support@codveda.com
+- Organization: Codveda Technology
+- Website: https://www.codveda.com
+- Email: support@codveda.com
 
 Special thanks to Codveda Technology for the opportunity and mentorship throughout the internship.
