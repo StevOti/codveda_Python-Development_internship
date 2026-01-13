@@ -6,6 +6,14 @@
 # Objectives:
 # a. Create functions for each operation.
 # b. Take two inputs from the user and allow them to select
+# Task 1: Simple Calculator:
+# Description: Develop a basic calculator that can
+# perform four primary arithmetic operations: addition,
+# subtraction, multiplication, and division.
+
+# Objectives:
+# a. Create functions for each operation.
+# b. Take two inputs from the user and allow them to select
 # the desired operation.
 # c. Handle division by zero with appropriate error
 # messages.
