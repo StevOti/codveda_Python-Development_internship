@@ -1,5 +1,4 @@
-Codveda Technology – Python Development Internship Projects
-📌 Overview
+Codveda Technology – Python Development Internship Projects Overview
 
 This repository contains the projects completed during my Python Development Internship at Codveda Technology. The internship focused on strengthening core Python programming skills through hands-on tasks ranging from basic scripting to intermediate and advanced applications.
 
