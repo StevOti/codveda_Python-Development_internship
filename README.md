@@ -155,6 +155,36 @@ For Django projects, ensure dependencies are installed and run:
 
 python manage.py runserver
 
+🧪 Running Tests
+
+Level 1 (branch: level-1)
+
+- Run all Level 1 tests
+
+python -m unittest discover -v Level_1_Basic/tests
+
+- Run a single test file
+
+python -m unittest Level_1_Basic.tests.test_word_counter -v
+
+- Run an individual test case
+
+python -m unittest Level_1_Basic.tests.test_simple_calculator.TestSimpleCalculator.test_addition -v
+
+Level 2 (branch: level-2)
+
+- Run all Level 2 tests
+
+python -m unittest discover -v Level_2_Intermediate/tests
+
+- Run API integration tests
+
+python -m unittest Level_2_Intermediate.tests.test_api_integration -v
+
+- Run data scraper tests
+
+python -m unittest Level_2_Intermediate.tests.test_data_scraper -v
+
 🎯 Learning Outcomes
 
 Improved Python programming proficiency
