@@ -205,6 +205,47 @@ python manage.py runserver
 
 ---
 
+## Running Tests
+
+Unit tests are included for each level. Tests use mocking where necessary to avoid external dependencies.
+
+**Level 1 Tests (Basic)**
+
+Run all Level 1 tests:
+```bash
+python -m unittest discover -v Level_1_Basic/tests
+```
+
+Run a specific test module:
+```bash
+python -m unittest Level_1_Basic.tests.test_simple_calculator -v
+python -m unittest Level_1_Basic.tests.test_number_guessing_game -v
+python -m unittest Level_1_Basic.tests.test_word_counter -v
+```
+
+**Level 2 Tests (Intermediate)**
+
+Run all Level 2 tests:
+```bash
+python -m unittest discover -v Level_2_Intermediate/tests
+```
+
+Run a specific test module:
+```bash
+python -m unittest Level_2_Intermediate.tests.test_todo_list_app -v
+python -m unittest Level_2_Intermediate.tests.test_data_scraper -v
+python -m unittest Level_2_Intermediate.tests.test_api_integration -v
+```
+
+**Run All Tests**
+
+To run the entire test suite:
+```bash
+python -m unittest discover -v
+```
+
+---
+
 ## Learning Outcomes
 
 - Improved Python programming proficiency
